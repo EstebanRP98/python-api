@@ -6,6 +6,7 @@ import os
 
 os.environ["OPENAI_API_KEY"] = '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'
 
+
 class Todo(Resource):
 
   def construct_index(directory_path):
